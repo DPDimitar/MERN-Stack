@@ -6,10 +6,7 @@ var cors = require('cors')
 // var body_parser = require('body-parser')
 
 var mongoose = require('mongoose');
-var mongodb = 'mongodb+srv://sarahristova:W42GKSMAqQzNpIVu@cluster0.cpnothn.mongodb.net/?retryWrites=true&w=majority';
-//dv username: sarahristova
-//db geslo: W42GKSMAqQzNpIVu
-//S@r@07112002
+var mongodb = 'mongodb+srv://[username]:[password]@cluster0.cpnothn.mongodb.net/?retryWrites=true&w=majority';
 mongoose.connect(mongodb);
 mongoose.Promise = global.Promise;
 var db = mongoose.connection;
